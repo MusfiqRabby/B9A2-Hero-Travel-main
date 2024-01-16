@@ -215,8 +215,9 @@ img{
     display: flex;
     gap: 5px;
     margin-bottom: 5px;
-    /* border: 2px solid red; */
 }
+
+
 
 
 
@@ -263,6 +264,7 @@ img{
 }
 .img-div img{
     max-width: 100%;
+    
 }
  .items-parent h5{
     color: #131318;

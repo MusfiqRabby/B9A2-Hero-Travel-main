@@ -192,6 +192,8 @@ body{
 .Why-choose-container{
     width: 1000px;
     margin: auto;
+    margin-bottom: 20px;
+
 }
 
 .Why-choose{
@@ -229,7 +231,7 @@ body{
 .img-div img{
     max-width: 100%;
 }
-/* .items-parent h5{
+ .items-parent h5{
     color: #131318;
     font-size: 21px;
     font-weight: 600;
@@ -238,32 +240,33 @@ body{
     color: #5A5A5D;
     font-size: 16px;
     font-weight: 400;
-    line-height: 26px;  */
+    line-height: 26px;
+ } 
 
-.card-parent .items-parent{
-    border-radius: 16px;
-    border: 1px solid rgba(233, 68, 68, 0.20);
-    background: rgba(233, 68, 68, 0.05);
-} 
+ /* fourth style  */
+ 
+
+
 
 
 /* last section style  */
 
  .newsletter-container{
-   display: flex; 
-   margin: 0 auto;
+    width: 1200px;
+    display: flex; 
+    margin: 20px auto; 
    align-items: center;
-   justify-content: space-between;
+    
 } 
 .news-letter{
     background: #FFF;
     margin-top: 100px;
-    max-width: 510px;
-    height: 410px;
+    width: 510px;
+    height: 400px;
     padding: 50px 30px;
     border: 1px solid tomato;
     border-radius: 8px;
-    margin-left: 95px;
+    
 }
 .news-letter h3{
     color: var(--primary-color);
@@ -311,13 +314,35 @@ body{
     margin-bottom: 40px;
 }
 .rectangle img{
-    width: 600px;
+    width: 95%;
     height: 410px;
-    margin-top: 100px;
-    margin-right: 40px;
+    margin-top: 220px;
+    margin-left: 30px;
+    
 }
 
-
+.travel{
+    border-radius: 16px;
+    background: var(--secondary-color);
+    color: #FFF;
+    width: 315px;
+    padding: 22px;
+    height: 120px;
+    text-align: center;
+    transform: rotate(-19.630deg);
+    position: relative;
+    bottom: 170px;
+    left: 350px;
+}
+.travel h3{
+font-size: 2rem;
+font-weight: 600;
+}
+.travel p{
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 200;
+}
 
 /* footer style  */
  footer{
@@ -327,7 +352,7 @@ body{
     width: 100%;
     padding-top: 40px;
     color: #FFF;
-    margin-top: 100px;
+    margin-top: 30px;
    
 }
 .footer-content{

@@ -18,8 +18,8 @@ body{
 
 /* nav style  */
 
- .nav-section{
-    max-width: 1250px;
+  .nav-section{
+    max-width: 1230px;
     margin: 0 auto;
     margin-top: 20px;
     display: flex;
@@ -34,18 +34,21 @@ body{
 }
 
 .nav-container img{
-    width: 50px;
+    width: 80px;
     padding-right: 14px;
     object-fit: cover;
 }
+
 .nav-container p{
     color: var(--primary-color);
     font-size: 36px;
     font-weight: 800;
 }
+
 .nav-container .span{
     color: var(--secondary-color);
 }
+
 .items-container{
     width: 50%;
     display: flex;
@@ -60,7 +63,7 @@ body{
 }
 .items-container .first-child{
     color: var(--secondary-color);
-}
+} 
 
 /* banner style here  */
 .explore-container{
@@ -76,15 +79,18 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+
 .banner-section{
     margin: auto;
 }
+
 .banner-section > h1{
     text-align: center;
     font-size: 50px;
     color: #FFF;
     margin-bottom: 24px;
 }
+
 .banner-section > p{
     font-size: 16px;
     color: #FFF;
@@ -108,9 +114,9 @@ body{
     text-align: center;
     font-size: 16px;
     border-radius: 8px;
-    border: none;
-    
+    border: none; 
 }
+
 .form > .select{
     width: 120px;
     height: 40px;
@@ -119,6 +125,7 @@ body{
     border-radius: 8px;
     border: none;
 }
+
 .form > button{
     width: 150px;
     height: 40px;
@@ -138,16 +145,19 @@ body{
     margin: 0 auto;
     margin-bottom: 50px;
 }
+
   .main-section{
     margin-top: 100px;
     margin-left: 85px;
     
   }
+
   .main-section > h3{
     color: var(--primary-color);
     font-size: 40px;
     font-weight: 800;
   }
+
   .main-section > p{
     color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
@@ -155,6 +165,7 @@ body{
     line-height: 26px; 
     margin: 20px 0;
   }
+
 .unorder-list{
     margin-left: 25px;
     color: rgba(19, 19, 24, 0.70);
@@ -162,12 +173,14 @@ body{
     font-weight: 400;
     line-height: 26px; 
 }
+
 .unorder-list > p{
     color: #5A5A5D;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px; 
 }
+
 .btn{
     width: 170px;
     height: 50px;
@@ -180,12 +193,14 @@ body{
     border: none;
     margin-bottom: 20px;
 }
+
  .img-container img{
     width: 500px;
     height: 480px;
     margin-left: 100px;
     margin-top: 100px;
 }
+
 /* second section style  */
 .destination{
     
@@ -193,11 +208,13 @@ body{
     margin: 0 auto;
     text-align: center;
 }
+
 .destination h1{
     color: #131318;
     font-size: 36px;
     font-weight: 800;
 }
+
 .destination p{
     color: rgba(19, 19, 24, 0.70);
     font-size: 14px;
@@ -217,17 +234,12 @@ img{
     margin-bottom: 5px;
 }
 
-
-
-
-
 /* third section style  */
 
 .Why-choose-container{
     width: 1000px;
     margin: auto;
     margin-bottom: 20px;
-
 }
 
 .Why-choose{
@@ -263,8 +275,7 @@ img{
     margin-bottom: 20px;
 }
 .img-div img{
-    max-width: 100%;
-    
+    max-width: 100%;  
 }
  .items-parent h5{
     color: #131318;
@@ -278,11 +289,34 @@ img{
     line-height: 26px;
  } 
 
- /* fourth style  */
- 
+ /* parallax style started  */
 
+#parallax-section{
+    background-image: url('./Images/parallax.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 80px 0;
+    margin-top: 80px;
+}
 
-
+ .parallax-container{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    color: #FFF;
+ }
+ .parallax-item i{
+    font-size: 2.8rem;
+ }
+.parallax-item h2{
+    font-size: 2.8rem;
+    margin: 20px 0;
+}
 
 /* last section style  */
 
@@ -292,7 +326,6 @@ img{
     display: flex; 
     margin:  auto; 
    align-items: center;
-    
 } 
 .news-letter{
     background: #FFF;
@@ -302,7 +335,6 @@ img{
     padding: 50px 30px;
     border: 1px solid tomato;
     border-radius: 8px;
-    
 }
 .news-letter h3{
     color: var(--primary-color);
@@ -315,7 +347,6 @@ img{
     font-weight: 400;
     line-height: 22px; 
     margin-top: 15px;
-    
 }
 .news-letter hr{
     width: 393px;
@@ -354,7 +385,6 @@ img{
     height: 410px;
     margin-top: 220px;
     margin-left: 30px;
-    
 }
 
 .travel{
@@ -389,8 +419,8 @@ font-weight: 600;
     padding-top: 40px;
     color: #FFF;
     margin-top: 30px;
-   
 }
+
 .footer-content{
     display: flex;
     align-items: center;
@@ -398,15 +428,18 @@ font-weight: 600;
     flex-direction: column;
     text-align: center;
 }
+
 .img-last{
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
+
 .img-last img{
     width: 30px;
     height: auto;
 }
+
 .img-last h3{
     margin-left: 10px;
     font-size: 30px;
